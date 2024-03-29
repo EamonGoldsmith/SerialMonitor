@@ -26,7 +26,7 @@ int main(int argc, char** argv)
 	}
 
 	// open serial port
-	fd = open_port("/dev/ttyTHS1", 115200, "8N1", 0);
+	fd = open_port(argv[1], atoi(argv[2]), argv[3], 0);
 
 	if (fd == 1) {
 		puts("failed to open port");

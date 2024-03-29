@@ -7,7 +7,7 @@
 #define LOG_FILE_NAME "LOG_" __DATE__
 
 #ifndef FILE_PATH
-	#define FILE_PATH "/home/eamon/src/CameraController/logs"
+	#define FILE_PATH "SET THIS PATH"
 #endif
 
 // log just to the terminal - mostly for testing logs
